@@ -1,0 +1,11 @@
+#!/usr/bin/python
+
+import sys
+sys.path[0:0] = [
+  '/Users/Bernat/GitHub/zodiac/parts/google_appengine',
+  ]
+
+import appcfg
+
+if __name__ == '__main__':
+    sys.exit(appcfg._run_file('/Users/Bernat/GitHub/zodiac/parts/google_appengine/appcfg.py', locals()))
