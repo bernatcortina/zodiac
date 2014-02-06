@@ -1,0 +1,1 @@
+/Users/Bernat/Pyramid/zodiac/src/zodiac/zodiac/resources.py

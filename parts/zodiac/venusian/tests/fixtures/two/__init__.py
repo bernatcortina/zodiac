@@ -1,0 +1,1 @@
+/Users/Bernat/Pyramid/zodiac/eggs/venusian-1.0a8-py2.7.egg/venusian/tests/fixtures/two/__init__.py
