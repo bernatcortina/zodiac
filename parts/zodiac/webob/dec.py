@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/WebOb-1.2.3-py2.7.egg/webob/dec.py
+/Users/Bernat/GitHub/zodiac/eggs/WebOb-1.2.3-py2.7.egg/webob/dec.py

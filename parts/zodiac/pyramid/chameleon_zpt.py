@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/chameleon_zpt.py
+/Users/Bernat/GitHub/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/chameleon_zpt.py

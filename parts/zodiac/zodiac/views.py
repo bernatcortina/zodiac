@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/src/zodiac/zodiac/views.py
+/Users/Bernat/GitHub/zodiac/src/zodiac/zodiac/views.py

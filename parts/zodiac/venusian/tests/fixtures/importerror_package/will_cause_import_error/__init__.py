@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/venusian-1.0a8-py2.7.egg/venusian/tests/fixtures/importerror_package/will_cause_import_error/__init__.py
+/Users/Bernat/GitHub/zodiac/eggs/venusian-1.0a8-py2.7.egg/venusian/tests/fixtures/importerror_package/will_cause_import_error/__init__.py

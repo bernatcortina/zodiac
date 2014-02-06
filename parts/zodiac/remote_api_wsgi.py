@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/src/zodiac/remote_api_wsgi.py
+/Users/Bernat/GitHub/zodiac/src/zodiac/remote_api_wsgi.py

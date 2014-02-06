@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/path.py
+/Users/Bernat/GitHub/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/path.py

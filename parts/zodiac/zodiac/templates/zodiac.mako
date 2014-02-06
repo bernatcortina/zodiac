@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/src/zodiac/zodiac/templates/zodiac.mako
+/Users/Bernat/GitHub/zodiac/src/zodiac/zodiac/templates/zodiac.mako

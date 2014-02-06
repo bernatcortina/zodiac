@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/fixers/fix_bfg_imports.py
+/Users/Bernat/GitHub/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/fixers/fix_bfg_imports.py

@@ -55,6 +55,10 @@ def entra_dades_view(request):
 		}
 	return { "projecte": "Signes del zodiac" }
 
+def guess_book_view(request):
+	
+	return { "projecte": "LLibre de visites" }
+
 
 
 

@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/tests/pkgs/wsgiapp2app/__init__.py
+/Users/Bernat/GitHub/zodiac/eggs/pyramid-1.4-py2.7.egg/pyramid/tests/pkgs/wsgiapp2app/__init__.py

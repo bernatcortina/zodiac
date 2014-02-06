@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/src/zodiac/setup.py
+/Users/Bernat/GitHub/zodiac/src/zodiac/setup.py

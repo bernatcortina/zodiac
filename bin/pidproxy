@@ -2,8 +2,8 @@
 
 import sys
 sys.path[0:0] = [
-  '/Users/Bernat/Pyramid/zodiac/eggs/supervisor-3.0-py2.7.egg',
-  '/Users/Bernat/Pyramid/zodiac/eggs/meld3-0.6.10-py2.7.egg',
+  '/Users/Bernat/GitHub/zodiac/eggs/supervisor-3.0-py2.7.egg',
+  '/Users/Bernat/GitHub/zodiac/eggs/meld3-0.6.10-py2.7.egg',
   '/Library/Python/2.7/site-packages',
   ]
 

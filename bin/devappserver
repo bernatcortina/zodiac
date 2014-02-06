@@ -2,14 +2,14 @@
 
 import sys
 sys.path[0:0] = [
-  '/Users/Bernat/Pyramid/zodiac/parts/google_appengine',
+  '/Users/Bernat/GitHub/zodiac/parts/google_appengine',
   ]
 
 
 import os
 
 def mkvar():
-  var = '/Users/Bernat/Pyramid/zodiac/parts/zodiac_var'
+  var = '/Users/Bernat/GitHub/zodiac/parts/zodiac_var'
   if not os.path.exists(var):
     os.mkdir(var)
   return var
@@ -22,4 +22,4 @@ from dev_appserver import *
 import dev_appserver
 
 if __name__ == '__main__':
-    sys.exit(dev_appserver._run_file('/Users/Bernat/Pyramid/zodiac/parts/google_appengine/dev_appserver.py', locals()))
+    sys.exit(dev_appserver._run_file('/Users/Bernat/GitHub/zodiac/parts/google_appengine/dev_appserver.py', locals()))

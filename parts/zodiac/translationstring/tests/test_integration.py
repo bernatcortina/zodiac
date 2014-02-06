@@ -1,1 +1,1 @@
-/Users/Bernat/Pyramid/zodiac/eggs/translationstring-1.1-py2.7.egg/translationstring/tests/test_integration.py
+/Users/Bernat/GitHub/zodiac/eggs/translationstring-1.1-py2.7.egg/translationstring/tests/test_integration.py

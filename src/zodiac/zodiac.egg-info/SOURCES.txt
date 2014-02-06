@@ -5,6 +5,7 @@ setup.cfg
 setup.py
 zodiac/__init__.py
 zodiac/conftest.py
+zodiac/models.py
 zodiac/pyramid_jinja2.py
 zodiac/resources.py
 zodiac/test_views.py
@@ -39,4 +40,5 @@ zodiac/static/fotos_zodiac/Scorpio.png
 zodiac/static/fotos_zodiac/Taurus.png
 zodiac/static/fotos_zodiac/Virgo.png
 zodiac/templates/entra_dades.mako
+zodiac/templates/guess_book.mako
 zodiac/templates/zodiac.mako

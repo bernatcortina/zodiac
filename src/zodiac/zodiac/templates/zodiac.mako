@@ -1,5 +1,7 @@
+<!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
     <title>${projecte}</title>
 </head>
 <body>
@@ -12,6 +14,9 @@
 
     <p>
     	<a href="${request.route_url('entra_dades')}">CONEIX EL TEU SIGNE</a>
+    </p>
+    <p>
+        <a href="${request.route_url('guess_book')}">MIRA EL LLIBRE DE VISITES</a>
     </p>
 
 </body>
