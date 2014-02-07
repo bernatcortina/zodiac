@@ -59,7 +59,13 @@
                 <option value="12">Desembre</option>
             </select>
             <br><br>
-            <input type="submit" value="Send">
+            Vols guardar la visita al llibre de visites?<br>
+            <select name="terms">
+                <option value="si" selected>Si</option>
+                <option value="no">No</option>
+            </select>
+            <br><br>
+            <input type="submit" value="Envia">
         </form>
     </p>
 
@@ -69,6 +75,12 @@
             <img src="/static/fotos_zodiac/${imatge}" width="100" height="100" alt="${imatge}"/>
         </p>
         <p>Missatge de la fortuna: ${missatge} </p>
+        <p>
+            <a href="/">TORNA A L'INICI</a>
+        </p>
+        <p>
+            <a href="${request.route_url('guest_book')}">MIRA EL LLIBRE DE VISITES</a>
+        </p>
     % endif
 
 

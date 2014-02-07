@@ -49,8 +49,9 @@ def entra_dades_view(request):
 		frase = missatge[num].decode('utf-8')
 		signe = zodiac[mes_naix].decode('utf-8')
 
-		guestbook = GuestBook(signe=signe,frase=frase)
-		guestbook.put()
+		if request.POST.get("terms") == 'si':
+			guestbook = GuestBook(signe=signe,frase=frase)
+			guestbook.put()
 
 		return { "projecte": "Signes del zodiac",
 			"nom": nom,
