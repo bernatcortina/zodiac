@@ -16,7 +16,7 @@
     	<a href="${request.route_url('entra_dades')}">CONEIX EL TEU SIGNE</a>
     </p>
     <p>
-        <a href="${request.route_url('guess_book')}">MIRA EL LLIBRE DE VISITES</a>
+        <a href="${request.route_url('guest_book')}">MIRA EL LLIBRE DE VISITES</a>
     </p>
 
 </body>

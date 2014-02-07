@@ -24,8 +24,8 @@ def make_app():
     config.add_route( "entra_dades", "/entra_dades" )
     config.add_view( views.entra_dades_view, route_name="entra_dades", renderer="entra_dades.mako" )
 
-    config.add_route( "guess_book", "/guess_book" )
-    config.add_view( views.guess_book_view, route_name="guess_book", renderer="guess_book.mako" )
+    config.add_route( "guest_book", "/guest_book" )
+    config.add_view( views.guest_book_view, route_name="guest_book", renderer="guest_book.mako" )
 
 
 

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-import random
+import random, datetime
 from models import *
 
 
@@ -34,7 +34,7 @@ def entra_dades_view(request):
 
 		num = random.randint(0,7)
 
-		signe = ("Capricorn","Aquari","Peixos","Àries","Taure","Bessons","Càncer","Lleó","Verge","Balança","Escorpí","Sagitari")
+		zodiac = ("Capricorn","Aquari","Peixos","Àries","Taure","Bessons","Càncer","Lleó","Verge","Balança","Escorpí","Sagitari")
 		data = (20,18,20,20,21,21,22,23,23,23,22,21)
 
 		mes_naix = int(mes_naix)
@@ -46,18 +46,30 @@ def entra_dades_view(request):
 		if mes_naix==12:
 			mes_naix=0
 
+		frase = missatge[num].decode('utf-8')
+		signe = zodiac[mes_naix].decode('utf-8')
+
+		guestbook = GuestBook(signe=signe,frase=frase)
+		guestbook.put()
+
 		return { "projecte": "Signes del zodiac",
 			"nom": nom,
-			"signe": signe[mes_naix].decode('utf-8'),
-			"missatge": missatge[num].decode('utf-8'),
+			"signe": signe,
+			"missatge": frase,
 			"imatge": imatges[mes_naix]
 
 		}
+	
+
 	return { "projecte": "Signes del zodiac" }
 
-def guess_book_view(request):
+def guest_book_view(request):
+
+	gb = GuestBook.all()
 	
-	return { "projecte": "LLibre de visites" }
+	return { "projecte": "LLibre de visites",
+		"guestbook": gb 
+		}
 
 
 

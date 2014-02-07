@@ -40,5 +40,5 @@ zodiac/static/fotos_zodiac/Scorpio.png
 zodiac/static/fotos_zodiac/Taurus.png
 zodiac/static/fotos_zodiac/Virgo.png
 zodiac/templates/entra_dades.mako
-zodiac/templates/guess_book.mako
+zodiac/templates/guest_book.mako
 zodiac/templates/zodiac.mako

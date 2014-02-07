@@ -1,7 +1,9 @@
 # -*- coding: utf-8 -*-
 
+import datetime
 from google.appengine.ext import db
 
-class Zodiac(db.Model):
-    title = db.StringProperty(required=True)
-    text = db.TextProperty(required=True)
+class GuestBook(db.Model):
+	signe = db.StringProperty()
+	frase = db.StringProperty()
+	date = db.DateTimeProperty(auto_now_add=True)
