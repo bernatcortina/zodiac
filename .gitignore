@@ -1,0 +1,10 @@
+bin
+conf
+develop-eggs
+downloads
+eggs
+etc
+parts
+var
+.installed.cfg
+src/pyges/pyges.egg-info
